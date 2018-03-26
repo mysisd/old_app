@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4D4D4D"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cb_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="H股指数" />
+
+    <CheckBox
+        android:id="@+id/cb_small_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="小H股指" />
+
+    <CheckBox
+        android:id="@+id/cb_gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="美黄金" />
+
+    <CheckBox
+        android:id="@+id/cb_gas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="天然气" />
+
+    <CheckBox
+        android:id="@+id/cb_copper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="美精铜" />
+</LinearLayout>

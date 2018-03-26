@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.testyingtou.yingtouproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="utils.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".BindCardActivity" />
+        <activity android:name=".ResetActivity" />
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".RegisterAgreementActivity" />
+        <activity android:name=".CapitalDetailsActivity" />
+        <activity android:name=".SystemSettingActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".PersonalInformationActivity" />
+        <activity android:name=".ModifyLoginPwdActivity" />
+        <activity android:name=".ModifyTransactPwdActivity" />
+        <activity android:name=".ResetTransactPwdActivity" />
+        <activity android:name=".ResetTransactPwdSecondActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BuyActivity">
+
+        </activity>
+
+        <activity android:name=".SellActivity"></activity>
+    </application>
+
+</manifest>
